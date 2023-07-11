@@ -1,2 +1,3 @@
 # ilacDozOneri
-girilen kilo ve ateş bilgilerine göre seçilen ilaç dozu önerisi 
+Girilen kilo ve ateş bilgilerine göre seçilen ilaç dozu önerisi 
+
