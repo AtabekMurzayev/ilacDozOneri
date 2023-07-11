@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ff0000" /> <!-- Dikdörtgen rengi - Burada kırmızı renk kullanıldı -->
+    <corners android:radius="8dp" /> <!-- Dikdörtgen köşelerinin yuvarlatma yarıçapı - Burada 8dp kullanıldı -->
+    <padding
+        android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp" /> <!-- Dikdörtgen içindeki içeriklere boşluk vermek için -->
+</shape>

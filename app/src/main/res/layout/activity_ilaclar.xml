@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".ilaclarActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Kullanmak istediğiniz ateş düşürücü ilacı seçin"
+        android:textAlignment="inherit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_parolplus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <!-- rectangle_button.xml dosyasına referans -->
+    />
+
+    <Button
+        android:id="@+id/btn_ibuford"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rectangle_button"
+        android:checkable="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:text="İbu-Ford"
+        app:layout_constraintBottom_toTopOf="@+id/other_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_dolven"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calpol6plus" />
+
+    <Button
+        android:id="@+id/btn_dolven"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle_button"
+        android:checkable="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:text="Dolven"
+        app:layout_constraintBottom_toTopOf="@+id/other_btn"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ibuford"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calpol120"
+        tools:visibility="visible" /> <!-- rectangle_button.xml dosyasına referans --><![CDATA[
+    />
+
+    ]]><!-- rectangle_button.xml dosyasına referans --><![CDATA[
+    />
+
+    ]]><!-- rectangle_button.xml dosyasına referans --><![CDATA[
+    />
+
+    ]]><!-- rectangle_button.xml dosyasına referans --><![CDATA[
+    />
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/btn_calpol6plus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rectangle_button"
+        android:checkable="true"
+        android:clickable="true"
+        android:enabled="true"
+        android:text="Calpol 6 Plus"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ibuford"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_calpol120"
+        app:layout_constraintTop_toBottomOf="@+id/btn_parolplus" />
+
+    <Button
+        android:id="@+id/btn_parolplus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rectangle_button"
+        android:checkable="true"
+        android:clickable="true"
+        android:editable="true"
+        android:text="Parol Plus"
+        app:layout_constraintBottom_toTopOf="@+id/btn_calpol6plus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_parol120"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btn_calpol120"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rectangle_button"
+        android:clickable="true"
+        android:editable="true"
+        android:enabled="true"
+        android:text="Calpol 120"
+        app:layout_constraintBottom_toTopOf="@+id/btn_dolven"
+        app:layout_constraintEnd_toStartOf="@+id/btn_calpol6plus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_parol120" />
+
+    <Button
+        android:id="@+id/btn_parol120"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/rectangle_button"
+        android:checkable="true"
+
+        android:clickable="true"
+        android:editable="true"
+        android:text="Parol 120"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_calpol120"
+        app:layout_constraintEnd_toStartOf="@+id/btn_parolplus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+
+
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="60dp"
+        android:background="?attr/actionModeCloseDrawable"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ateş Düşürücü Asistan"
+        android:textColor="#FFEB3B"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/btn_exit"
+        app:layout_constraintStart_toEndOf="@+id/btn_back"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/btn_exit"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="63dp"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:backgroundTint="@color/firered"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="123dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="28dp"
+        android:text="Eğer son kullanım tarihi geçmemiş ve kullanıma uygun bir ateş düşürücünüz yok ise, yüksek ateş durumunda kullanılmak üzere doktorunuza veya eczacınıza danışarak ateş düşürücü temin edebilirsiniz. Ateş düşürücüler hakkında bilgi almak ve ateş düşürücü tercihinizi kolaylaştırmak adına Ateş Düşürücü Rehberi yazımızı okuyabilirsiniz."
+        android:textAlignment="inherit"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/other_btn" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rectangle_button"
+        android:text="Sonraki Adım  ->"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_desc" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="hekimim yanında"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/other_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rectangle_button"
+        android:text="Diğer Ateş Düşürücü"
+        app:layout_constraintBottom_toTopOf="@+id/txt_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ibuford" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
